@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact · Website Studio</title>
+<meta name="description" content="Contact Website Studio on WhatsApp or email to discuss your website idea and get a free quote.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Unbounded:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+<div id="site-header"></div>
+<main class="wide">
+  <section class="intro">
+    <h1>Let's Build <span class="glow">Something Amazing.</span></h1>
+    <p class="lead">Ready to take your business online? Let's discuss your idea and create a website that represents your brand.</p>
+  </section>
+
+  <div class="two">
+    <div class="panel">
+      <form id="orderForm" autocomplete="off">
+        <label for="fName">Name
+          <input id="fName" type="text" placeholder="Your name">
+        </label>
+        <label for="fType">What do you need?
+          <select id="fType">
+            <option>A new website</option>
+            <option>An online store</option>
+            <option>A website redesign</option>
+            <option>Website maintenance</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label for="fMsg">Tell us about your idea
+          <textarea id="fMsg" placeholder="What does your business do? Any pages or features you have in mind?"></textarea>
+        </label>
+        <div class="actions" style="margin-top:0"><a class="btn red" id="formWa" href="#" target="_blank" rel="noopener">Send on WhatsApp</a></div>
+      </form>
+    </div>
+
+    <div class="panel">
+      <h2>Or reach us directly</h2>
+      <div class="contact-line"><span><span class="muted">WhatsApp</span> &nbsp; <span class="v" data-number></span></span><button class="textlink" type="button" data-copy="number">Copy</button></div>
+      <div class="contact-line"><span><span class="muted">Email</span> &nbsp; <span class="v" data-email></span></span><button class="textlink" type="button" data-copy="email">Copy</button></div>
+    </div>
+  </div>
+</main>
+<div id="site-footer"></div>
+<script src="site.js"></script>
+</body>
+</html>
